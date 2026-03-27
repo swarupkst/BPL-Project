@@ -10,8 +10,7 @@ const Navbar = () => {
     <img src={logoImg} alt="logo" />
   </div>
   <div className="flex items-center gap-6">
-  
-  {/* Menu */}
+
   <ul className="flex items-center gap-6">
     <li>Home</li>
     <li>Fixture</li>
@@ -19,7 +18,6 @@ const Navbar = () => {
     <li>Schedules</li>
   </ul>
 
-  {/* Button */}
   <button className="btn flex items-center gap-2 font-bold text-xl">
     0 coins
     <img src={dollerImg} alt="dollar icon" className="w-6 h-6"/>

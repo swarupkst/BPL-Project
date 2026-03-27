@@ -1,13 +1,15 @@
 import React, { use } from 'react'
+import AvailablePlayers from "../availablePlayers/AvailablePlayers";
 
 export default function Players({playersPromise}) {
     console.log (playersPromise)
-    const data = use(playersPromise);
-    console.log (data)
+    const players = use(playersPromise);
+    console.log (players)
   return (
     
     <div>
-      <h1>Player : {data.length}</h1>
+      <h1>Player : {players.length}</h1>
+      <AvailablePlayers players={players}/>
     </div>
   )
 }
