@@ -5,8 +5,8 @@ const Card = ({player}) => {
   return (
     <div className="card bg-base-100 shadow-sm border-2 p-1 border-gray-600">
   <figure>
-    <img className='rounded-[5px] w-[330px] mt-4'
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzkFywF7oMHkeuFhRdg25KpkRaRhCkswm1Tw&s"
+    <img className='rounded-[5px] w-[430px] h-[300px] mt-4'
+      src={player.image_url}
       alt="Shoes" />
   </figure>
   <div className="card-body">
